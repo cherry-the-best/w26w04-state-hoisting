@@ -2,7 +2,7 @@ import './App.css'
 import { useState } from 'react'
 
 function App() {
-  const [count1, setCount1] = useState(0)
+  const [count1, setCount1] = useState(0) // 밸류 알고 있기 !
   const [count2, setCount2] = useState(0)
 
   return (
